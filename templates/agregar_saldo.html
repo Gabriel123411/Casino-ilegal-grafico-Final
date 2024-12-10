@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Agregar Saldo</title>
+</head>
+<body>
+    <h2>Agregar Saldo a la Cuenta</h2>
+    <form method="POST" action="{{ url_for('agregar_saldo') }}">
+        <label for="monto">Monto a agregar:</label>
+        <input type="text" id="monto" name="monto" required>
+        <button type="submit">Agregar Saldo</button>
+    </form>
+    <a href="{{ url_for('menu_principal') }}">Volver al Menú Principal</a>
+</body>
+</html>

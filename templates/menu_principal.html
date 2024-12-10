@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menú Principal</title>
+</head>
+<body>
+    <h2>Menú Principal</h2>
+    <ul>
+        <li><a href="{{ url_for('blackjack') }}">Blackjack</a></li>
+        <li><a href="{{ url_for('poker') }}">Poker</a></li>
+        <li><a href="{{ url_for('tragaperras') }}">Tragaperras</a></li>
+        <li><a href="{{ url_for('carrera_buses') }}">Carrera de Buses</a></li>
+        <li><a href="{{ url_for('hipodromo') }}">Hipódromo</a></li>
+        <li><a href="{{ url_for('agregar_saldo') }}">Agregar Saldo a la Cuenta</a></li>
+    </ul>
+    <a href="{{ url_for('logout') }}">Salir</a>
+</body>
+</html>
