@@ -6,9 +6,9 @@
 </head>
 <body>
     <h2>Carrera de Buses</h2>
-    <img src="path/to/your/image.gif" alt="Carrera de Buses GIF">
+    <img src="{{ url_for('static', filename='images/carrera_de_buses.gif') }}" alt="Carrera de Buses GIF">
     <audio controls>
-        <source src="path/to/your/audio.mp3" type="audio/mpeg">
+        <source src="{{ url_for('static', filename='audio/carrera_de_buses.mp3') }}" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
     <a href="{{ url_for('menu_principal') }}">Volver al Menú Principal</a>
