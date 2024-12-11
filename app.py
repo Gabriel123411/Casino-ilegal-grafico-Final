@@ -51,9 +51,9 @@ def blackjack():
 def poker():
     return render_template('poker.html')
 
-@app.route('/tragaperras')
+@app.route('/slotmachine')
 def tragaperras():
-    return render_template('tragaperras.html')
+    return render_template('slotmachine.html')
 
 @app.route('/carrera_buses')
 def carrera_buses():
