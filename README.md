@@ -1,4 +1,4 @@
-Casino ilegal "version grafica"
+Proyecto casino ilegal "version grafica" para POO
 
 integrantes: 
 
