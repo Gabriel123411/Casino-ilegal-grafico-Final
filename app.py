@@ -3,7 +3,8 @@ from database import Database
 from usuario import Usuario
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'  # Cambia esto por una clave secreta segura
+#buscando supuestamente hay que colocar esto pero no se la verdad (?)
+app.secret_key = asd123?
 
 db = Database()
 
